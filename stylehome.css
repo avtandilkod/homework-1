@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.card {
+  background-color: #0b0b0b;
+  width: 300px;
+  height: 370px;
+  text-align: center;
+  margin: auto auto;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  border-radius: 100%;
+}
+
+h3 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.from {
+  color: #489127;
+}
+
+.social {
+  margin-top: 5px;
+  gap: 100px;
+}
+
+.media {
+  display: inline-block;
+  padding: 10px 80px;
+  margin: 5px 10px;
+  background-color: #3b3b3b;
+  border-radius: 5px;
+  width: 250px;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #14ae4c;
+  font-weight: bold;
+  text-decoration: underline rgb(141, 195, 54);
+}
+
+a:active {
+  background-color: rgb(61, 128, 35);
+  font-style: italic;
+}
+
+/* ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  gap: 10px;
+}
+li:first-child {
+  margin-top: 10px;
+}
+
+ul li {
+   padding: 10px; 
+  text-align: center;
+   background-color: rgb(84, 85, 83); 
+  border-radius: 10px;
+}
+
+ul li button {
+  background-color: rgb(84, 85, 83);
+  border: none;
+  width: 100%;
+}
+
+ul li button:hover {
+  background-color: rgb(87, 62, 185);
+  cursor: pointer;
+}  */
